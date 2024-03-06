@@ -16,7 +16,7 @@ constexpr float kMaxDistance = std::numeric_limits<float>::max();
 // for bidirectional to allow enough expansion on local and arterial to account
 // for routes where more direct paths are available near the origin and
 // destination.
-constexpr uint32_t kDefaultMaxUpTransitions[] = {0, 400, 100, 0, 0, 0, 0, 0};
+constexpr uint32_t kDefaultMaxUpTransitions[] = {0, 400, 500, 0, 0, 0, 0, 0};
 
 // Default distances within which expansion is always allowed (per level). It's optimized
 // for unidirectional search and can be modified by the path algorithm in case of
